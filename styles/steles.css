@@ -1,0 +1,87 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f6f9;
+}
+
+/* Bordes del examen con prioridad de renderizado */
+.header-title {
+    border: 2px solid #000000 !important;
+    background-color: #ffffff;
+}
+
+.sidebar {
+    border-left: 2px solid #000000 !important;
+    border-bottom: 2px solid #000000 !important;
+    border-right: 2px solid #000000 !important;
+    min-height: 420px;
+    background-color: #ffffff;
+}
+
+.main-content {
+    border-bottom: 2px solid #000000 !important;
+    border-right: 2px solid #000000 !important;
+    min-height: 420px;
+    background-color: #ffffff;
+}
+
+.ads-panel {
+    border-bottom: 2px solid #000000 !important;
+    border-right: 2px solid #000000 !important;
+    min-height: 420px;
+    background-color: #ffffff;
+}
+
+.footer-designer {
+    border-left: 2px solid #000000 !important;
+    border-right: 2px solid #000000 !important;
+    border-bottom: 2px solid #000000 !important;
+    background-color: #ffffff;
+}
+
+/* Enlaces del Navbar con Bootstrap */
+.nav-item .nav-link {
+    background-color: #ffffff;
+    transition: all 0.2s ease;
+}
+
+.nav-item .nav-link:hover, 
+.nav-item .nav-link.active {
+    background-color: #212529 !important;
+    color: #ffffff !important;
+}
+
+/* Configuración para que el carrusel llene la caja central */
+.carousel, .carousel-inner, .carousel-item {
+    height: 420px !important;
+}
+
+.carousel-item img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+/* Imagen limpia que ocupa todo el espacio de Publicidad */
+.ads-pure-image {
+    width: 100%;
+    height: 420px;
+    object-fit: cover;
+}
+
+/* Los cuadritos de la inicial construidos con propiedades de display */
+.cell {
+    width: 40px;
+    height: 40px;
+    border: 1px solid #ccc;
+    background-color: #fafafa;
+}
+
+/* Bloques amarillos que dibujan la inicial A */
+.filled {
+    background-color: #ffcc00 !important;
+    border: 1px solid #d4af37 !important;
+}
